@@ -32,7 +32,8 @@ This project addresses that problem through an interactive Power BI dashboard.
 
 ## 📊 Dashboard Pages
 
-### 1. Sales & Revenue Performance
+### 1. Executive Overview & Sales Performance
+<img width="667" height="376" alt="image" src="https://github.com/user-attachments/assets/1e8060fa-a9ca-451a-b33a-5f239d63c926" />
 
 Analyzes overall business performance.
 
@@ -57,6 +58,7 @@ Analyzes overall business performance.
 ---
 
 ### 2. Customer Behavior, Engagement & Reviews
+<img width="665" height="376" alt="image" src="https://github.com/user-attachments/assets/b1f3bf60-1ae2-4fae-a534-a80174eed291" />
 
 Analyzes how customers interact with the e-commerce platform.
 
@@ -79,6 +81,8 @@ Review categories were generalized into:
 ---
 
 ### 3. Conversion Funnel Analysis
+<img width="668" height="377" alt="image" src="https://github.com/user-attachments/assets/d4af89e8-7b90-48d6-8cee-0e170a10e11d" />
+
 
 Analyzes the customer journey from browsing to purchase.
 
@@ -101,6 +105,7 @@ The page identifies where customers drop out of the purchasing journey and compa
 ---
 
 ### 4. Product & Category Performance
+<img width="670" height="372" alt="image" src="https://github.com/user-attachments/assets/e9f7e101-308e-46f9-b193-3c2bb4a7ecb7" />
 
 Analyzes product-level and category-level contribution.
 
@@ -120,6 +125,7 @@ Interactive **field parameters and bookmarks** allow different analytical views 
 ---
 
 ### 5. Marketing / Traffic Source Performance
+<img width="669" height="374" alt="image" src="https://github.com/user-attachments/assets/e140007f-f960-49ed-ae66-5e4a145997da" />
 
 Evaluates the effectiveness of customer acquisition sources.
 
@@ -166,43 +172,6 @@ A dedicated **Date table** was created for time-based analysis and year-over-yea
 * Field Parameters
 * Interactive Slicers
 * Dashboard Storytelling
-
----
-
-## 📐 Key DAX Concepts
-
-Examples of analytical calculations implemented:
-
-```DAX
-Total Revenue =
-SUM(orders[total_usd])
-```
-
-```DAX
-Conversion Rate =
-DIVIDE(
-    [Completed Orders],
-    [Total Sessions]
-)
-```
-
-```DAX
-Revenue Growth YOY % =
-DIVIDE(
-    [Total Revenue] - [Total Revenue PY],
-    [Total Revenue PY]
-)
-```
-
-```DAX
-AOV =
-DIVIDE(
-    [Total Revenue],
-    [Total Orders]
-)
-```
-
-The project also uses **time-intelligence calculations**, customer segmentation logic, funnel calculations, and dynamic analysis using field parameters.
 
 ---
 
@@ -268,14 +237,10 @@ E-Commerce-Growth-Customer-Analytics/
 │
 ├── README.md
 │
-├── PowerBI/
-│   └── E-Commerce-Growth-Customer-Analytics.pbix
 │
 ├── Documentation/
 │   ├── Project_Report.pdf
-│   ├── Project_Report.docx
-│   └── Glossary.pdf
-│
+│  
 ├── Screenshots/
 │   ├── Landing_Page.png
 │   ├── Sales_Revenue.png
@@ -317,7 +282,6 @@ The main objective was to demonstrate not only Power BI visualization skills, bu
 
 ## 👩‍💻 Author
 
-**Harshita Rajoria**
-B.Tech — Computer Science & Engineering (Artificial Intelligence)
+**Harshita Rajoria | 9654424376 **
 
 **Focus:** Data Analytics | Business Analytics | Power BI | SQL | Python | AI
