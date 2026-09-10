@@ -282,6 +282,6 @@ The main objective was to demonstrate not only Power BI visualization skills, bu
 
 ## 👩‍💻 Author
 
-**Harshita Rajoria | 9654424376 **
+**Harshita Rajoria | 9654424376**
 
 **Focus:** Data Analytics | Business Analytics | Power BI | SQL | Python | AI
